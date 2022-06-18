@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/lightYellow"
+    android:orientation="vertical">
+
+    <ScrollView
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@color/lightYellow"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="150dp"
+                android:layout_marginBottom="15dp"
+                android:text="Anketa"
+                android:textColor="@color/hotPink"
+                android:textSize="30sp"
+                android:textStyle="bold"
+                android:ems="3"/>
+
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="10dp"
+                android:fontFamily="cursive"
+                android:hint="Text"
+                android:inputType="text"
+                android:textColor="@color/purple_200"
+                android:textSize="25sp"
+                android:textStyle="italic" />
+
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="10dp"
+                android:fontFamily="cursive"
+                android:hint="Name"
+                android:inputType="textPersonName"
+                android:textColor="@color/purple_200"
+                android:textSize="25sp"
+                android:textStyle="italic" />
+
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="10dp"
+                android:fontFamily="cursive"
+                android:hint="Phone"
+                android:inputType="phone"
+                android:textColor="@color/purple_200"
+                android:textSize="25sp"
+                android:textStyle="italic" />
+
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="10dp"
+                android:fontFamily="cursive"
+                android:hint="Number"
+                android:inputType="number"
+                android:textColor="@color/purple_200"
+                android:textSize="25sp"
+                android:textStyle="italic" />
+
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="10dp"
+                android:fontFamily="cursive"
+                android:hint="Password"
+                android:inputType="textPassword"
+                android:textColor="@color/purple_200"
+                android:textSize="25sp"
+                android:textStyle="italic" />
+
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="10dp"
+                android:fontFamily="cursive"
+                android:hint="Email address"
+                android:inputType="textEmailAddress"
+                android:textColor="@color/purple_200"
+                android:textSize="25sp"
+                android:textStyle="italic" />
+
+            <CalendarView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:background="@color/purple_200"
+                android:minDate="01/01/2000" />
+
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="end"
+                android:text="Send"
+                android:textSize="20sp" />
+
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>
