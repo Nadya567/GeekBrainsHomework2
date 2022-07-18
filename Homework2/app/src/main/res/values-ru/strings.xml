@@ -1,5 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <string name="app_name">Homework2</string>
+    <string name="app_name">Домашнее задание2</string>
     <string name="button_1">1</string>
     <string name="button_2">2</string>
     <string name="button_3">3</string>
@@ -16,6 +17,5 @@
     <string name="button_multi">*</string>
     <string name="button_divide">/</string>
     <string name="button_equal">=</string>
-    <string name="checkLanguage">Hello</string>
-
+    <string name="checkLanguage">Привет</string>
 </resources>
