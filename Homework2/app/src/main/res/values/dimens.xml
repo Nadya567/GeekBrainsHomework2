@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="buttonTextSize">45sp</dimen>
+    <dimen name="marginTopSize">16dp</dimen>
+    <dimen name="textViewMargins">16dp</dimen>
+    <dimen name="textViewMarginTop">64dp</dimen>
+    <dimen name="textViewHeight">60dp</dimen>
+</resources>
